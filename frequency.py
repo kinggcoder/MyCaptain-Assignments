@@ -1,4 +1,4 @@
-def frequency(strings):
+def most_frequent(strings):
     d={}
     count=1
     for i in strings:
@@ -13,4 +13,4 @@ def frequency(strings):
             if d[k]==i:
                 newdict[k]=d[k]
     print(newdict)
-frequency("mississippi")    
+most_frequent("mississippi")    
